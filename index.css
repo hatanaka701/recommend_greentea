@@ -1,6 +1,12 @@
 body {
-    height: 500px;
+    background-size: 50%;
     background-image: url(https://chakatsu.com/wp/wp-content/uploads/2019/02/re_190128_101.jpg);
     background-color:rgba(255,255,255,0.8);
     background-blend-mode:lighten;
+}
+
+.button_content {
+    width: 20vw;
+    height: 10vw;
+    margin: 1vw;
 }
