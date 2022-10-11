@@ -5,8 +5,17 @@ body {
     background-blend-mode:lighten;
 }
 
-.button_content {
-    width: 20vw;
+#button_space {
+    width: 65vw;
     height: 10vw;
-    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    margin: 35vh auto;
+}
+
+.button_content {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 20px;
 }
