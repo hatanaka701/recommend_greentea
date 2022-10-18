@@ -10,5 +10,7 @@
 ボタンを押した順で順位をつける
 順位によって出力画像を変える
 
+出力：btn2 btn1 btn3 の順に押されました
+
 型の種類
 int, string, boolean, array, object
