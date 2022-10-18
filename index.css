@@ -10,12 +10,18 @@ body {
     height: 10vw;
     display: flex;
     justify-content: center;
-    margin: 35vh auto;
+    margin: 35vh auto 0 auto;
 }
 
 .button_content {
     width: 30%;
     height: 100%;
     margin: 0 auto;
+    font-size: 20px;
+}
+
+#result {
+    text-align:center;
+    margin: 5vw auto;
     font-size: 20px;
 }
