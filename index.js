@@ -6,14 +6,26 @@ let result = document.getElementById('result');
 
 let array = []
 
+const last = () => {
+    if (array.length % 3 == 0) {
+        result.innerText = array;
+        array.length = 0;
+    } else {
+        result.innerText = '結果を出力' ;
+    }
+};
+
 btn1.addEventListener('click', () => {
     array.push(1);
+    last();
 });
 
 btn2.addEventListener('click', () => {
     array.push(2);
+    last();
 });
 
 btn3.addEventListener('click', () => {
     array.push(3);
+    last();
 });
