@@ -4,14 +4,14 @@ let btn3 = document.getElementById('btn3');
 
 let result = document.getElementById('result');
 
-let array = []
+let array = [];
 
 const last = () => {
-    if (array.length % 3 == 0) {
+    if (array.length === 3) {
         result.innerText = array;
-        array.length = 0;
+        array = [];
     } else {
-        result.innerText = '結果を出力' ;
+        result.innerText = '計算中';
     }
 };
 
